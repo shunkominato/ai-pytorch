@@ -1,0 +1,15 @@
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cpu
+Collecting torch
+  Using cached https://download.pytorch.org/whl/cpu/torch-1.9.0-cp39-cp39-linux_aarch64.whl (49.0 MB)
+Collecting torchvision
+  Using cached https://download.pytorch.org/whl/torchvision-0.16.1-cp39-cp39-linux_aarch64.whl (1.6 MB)
+Requirement already satisfied: typing-extensions in /usr/lib/python3.9/site-packages (from torch) (4.8.0)
+Requirement already satisfied: numpy in /usr/lib/python3.9/site-packages (from torchvision) (1.26.2)
+Requirement already satisfied: requests in /usr/lib/python3.9/site-packages (from torchvision) (2.31.0)
+INFO: pip is looking at multiple versions of torchvision to determine which version is compatible with other requirements. This could take a while.
+  Using cached https://download.pytorch.org/whl/torchvision-0.16.0-cp39-cp39-linux_aarch64.whl (1.7 MB)
+  Using cached https://download.pytorch.org/whl/torchvision-0.2.0-py2.py3-none-any.whl (48 kB)
+Requirement already satisfied: pillow>=4.1.1 in /usr/lib/python3.9/site-packages (from torchvision) (10.1.0)
+Requirement already satisfied: six in /usr/lib/python3.9/site-packages (from torchvision) (1.16.0)
+Installing collected packages: torch, torchvision
+Successfully installed torch-1.9.0 torchvision-0.2.0
